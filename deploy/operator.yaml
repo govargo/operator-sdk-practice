@@ -16,7 +16,7 @@ spec:
       containers:
         - name: operator-sdk-practice
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: govargo/app-operator
           command:
           - operator-sdk-practice
           imagePullPolicy: Always
